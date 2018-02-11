@@ -1,0 +1,101 @@
+[
+    {
+        "pipe": "get_binary_weight_multinomial_nb",
+        "ROC": 0.5233277591973244,
+        "Accuracy": 0.9373040752351097,
+        "Matthews Corr. Coeff": 0.14328772333830564,
+        "Precision": 0.5,
+        "Recall": 0.05,
+        "F1": 0.09090909090909091
+    },
+    {
+        "pipe": "get_binary_weight_logistic_regression_cv",
+        "ROC": 0.7753177257525083,
+        "Accuracy": 0.9636363636363636,
+        "Matthews Corr. Coeff": 0.6516296297794413,
+        "Precision": 0.8,
+        "Recall": 0.56,
+        "F1": 0.6588235294117648
+    },
+    {
+        "pipe": "get_binary_weight_linear_svc",
+        "ROC": 0.7793143812709031,
+        "Accuracy": 0.9623824451410659,
+        "Matthews Corr. Coeff": 0.6438184560168863,
+        "Precision": 0.7702702702702703,
+        "Recall": 0.57,
+        "F1": 0.6551724137931034
+    },
+    {
+        "pipe": "get_count_weight_multinomial_nb",
+        "ROC": 0.6436622073578595,
+        "Accuracy": 0.9529780564263323,
+        "Matthews Corr. Coeff": 0.48932301423814023,
+        "Precision": 0.8787878787878788,
+        "Recall": 0.29,
+        "F1": 0.43609022556390975
+    },
+    {
+        "pipe": "get_count_weight_logistic_regression_cv",
+        "ROC": 0.7756521739130435,
+        "Accuracy": 0.9642633228840125,
+        "Matthews Corr. Coeff": 0.6569165474203839,
+        "Precision": 0.8115942028985508,
+        "Recall": 0.56,
+        "F1": 0.6627218934911243
+    },
+    {
+        "pipe": "get_count_weight_linear_svc",
+        "ROC": 0.7953177257525084,
+        "Accuracy": 0.9661442006269593,
+        "Matthews Corr. Coeff": 0.6807060967046765,
+        "Precision": 0.8108108108108109,
+        "Recall": 0.6,
+        "F1": 0.6896551724137931
+    },
+    {
+        "pipe": "get_tfidf_weight_multinomial_nb",
+        "ROC": 0.5,
+        "Accuracy": 0.9373040752351097,
+        "Matthews Corr. Coeff": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0
+    },
+    {
+        "pipe": "get_tfidf_weight_logistic_regression_cv",
+        "ROC": 0.665,
+        "Accuracy": 0.9579937304075236,
+        "Matthews Corr. Coeff": 0.5620009523324095,
+        "Precision": 1.0,
+        "Recall": 0.33,
+        "F1": 0.49624060150375937
+    },
+    {
+        "pipe": "get_tfidf_weight_linear_svc",
+        "ROC": 0.61,
+        "Accuracy": 0.9510971786833856,
+        "Matthews Corr. Coeff": 0.4572645941803378,
+        "Precision": 1.0,
+        "Recall": 0.22,
+        "F1": 0.36065573770491804
+    },
+    {
+        "pipe": "get_count_weight_pca_smote_linear_svm",
+        "ROC": 0.816638795986622,
+        "Accuracy": 0.9623824451410659,
+        "Matthews Corr. Coeff": 0.6653117794678005,
+        "Precision": 0.7222222222222222,
+        "Recall": 0.65,
+        "F1": 0.6842105263157895
+    },
+    {
+        "pipe": "get_count_weight_pca_oversampling_linear_svm",
+        "ROC": 0.8229765886287624,
+        "Accuracy": 0.9655172413793104,
+        "Matthews Corr. Coeff": 0.689542974559112,
+        "Precision": 0.7586206896551724,
+        "Recall": 0.66,
+        "F1": 0.7058823529411765
+    }
+]
