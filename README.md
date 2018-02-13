@@ -6,7 +6,8 @@ https://people.eng.unimelb.edu.au/tbaldwin/#resources
 
 # Installation
 1. Install requirements:  `pip install -r requirements.txt`
-2. run Jupyter notebook `satire_detector.ipynb`
+2. Download data and unzip under `satire_detector/data`
+3. run Jupyter notebook `satire_detector.ipynb`
 
 # References
 Burfoot, C., & Baldwin, T. (2009, August). Automatic satire detection: Are you having a laugh?. 
